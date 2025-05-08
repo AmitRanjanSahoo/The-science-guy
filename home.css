@@ -3,6 +3,8 @@ html, body {
     min-width: 100wh;
     text-align: center;
     margin: 0;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 body.dark {
@@ -43,7 +45,7 @@ p {
 }
 #main-divone {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 header {
