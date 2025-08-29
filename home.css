@@ -1,0 +1,59 @@
+html, body {
+    min-height: 100vh;
+    min-width: 100wh;
+    text-align: center;
+    margin: 0;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body.dark {
+    background-color: black;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+body.dark a {
+    color: pink;
+}
+a:hover {
+    color: gray;
+}
+body.dark a:hover{
+    color: white;
+}
+#header-divone {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+header nav {
+    width: 80%;
+}
+#header-nav-divone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+p {
+    width: 80%;
+}
+#main-divone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    min-height: 10vh;
+}
+main {
+    min-height: 80vh;
+}
+footer {
+    min-height: 10vh;
+}
